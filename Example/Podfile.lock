@@ -1,0 +1,16 @@
+PODS:
+  - CrashProtector (0.1.0)
+
+DEPENDENCIES:
+  - CrashProtector (from `../`)
+
+EXTERNAL SOURCES:
+  CrashProtector:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CrashProtector: d51ad87e28768192e6dce5522ba9cce823e3ea90
+
+PODFILE CHECKSUM: 2101baf77ce76479731a13e7b51f81ef9c0cb5b4
+
+COCOAPODS: 1.9.3

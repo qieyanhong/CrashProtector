@@ -1,0 +1,23 @@
+{
+  "name": "CrashProtector",
+  "version": "0.1.0",
+  "summary": "Protect your Object-C project.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/qieyanhong/CrashProtector",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "qieyanhong": "qieyanhong@xiaozhu.com"
+  },
+  "source": {
+    "git": "https://github.com/qieyanhong/CrashProtector.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CrashProtector/Classes/**/*",
+  "frameworks": "UIKit"
+}
