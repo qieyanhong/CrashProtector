@@ -1,9 +1,11 @@
 ### Desciption:
-* Resolve container most function crash
-* Resolve unrecognized selector exception
+
+* Swizzle commonly function of container, prevent crash
+* Swizzle forwardInvocation, resolve unrecognized selector exception
 * with the help of atos or Bugly, Can report logs to help developers analysis stack symbols
 
 ### Usage:
+
 ```
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [CrashProtector registerProtection];
@@ -17,8 +19,7 @@
 ```
 
 
-### Protected Functions:
-* Developers can also add protection functions themselves
+### Protected Functions(Developers can also add protection functions themselves):
 
 * NSArray
 
